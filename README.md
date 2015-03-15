@@ -1,4 +1,4 @@
-TDD with Python - Cheatsheets
+TDD with Python
 =====================
 
 This repository houses a collection of reference sheets for the tools used in Test-Driven Development with Python by Harry Percival. It is currently a work in progress.
