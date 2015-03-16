@@ -1,7 +1,11 @@
 TDD with Python
 =====================
 
-This repository houses a collection of reference sheets for the tools used in Test-Driven Development with Python by Harry Percival. It is currently a work in progress.
+This repository houses a collection of reference sheets for the tools used in *Test-Driven Development with Python* by Harry Percival. It is currently a work in progress, and includes the following testing tools:
+
+1. [Django](tools/Django.md)
+2. [Python](tools/Python.md)
+3. [Selenium](tools/Selenium.md)
 
 ## Contributing
 
