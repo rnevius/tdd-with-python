@@ -25,7 +25,28 @@
 
 ### Test-Specific Methods
 
-The following assertions come from the [Python 3 unittest Docs](https://docs.python.org/3/library/unittest)
+The following methods aid in setting up and cleaning up (or "tearing down") tests:
+
+<table>
+<thead>
+    <tr>
+        <th>Method</th>
+        <th></th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><a href="https://docs.python.org/3/library/unittest.html#unittest.TestCase.setUp" title="unittest.TestCase.setUp">setUp()</a></td>
+        <td>Automatically run before other tests are executed.</td>
+    </tr>
+    <tr>
+        <td><a href="https://docs.python.org/3/library/unittest.html#unittest.TestCase.tearDown" title="unittest.TestCase.tearDown">tearDown()</a></td>
+        <td>Called immediately after the test method has been called and the result recorded. This is called even if the test method raised an exception.</td>
+    </tr>
+</tbody>
+</table>
+
+The following assertions come from the [Python 3 unittest Docs](https://docs.python.org/3/library/unittest):
 
 <table>
 <thead>
