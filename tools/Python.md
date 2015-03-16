@@ -1,4 +1,4 @@
-## Python
+# Python
 
 ### Core Commands
 
