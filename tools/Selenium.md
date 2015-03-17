@@ -1,5 +1,7 @@
 # Selenium
 
+Although it's not the official documentation, Baiju Muthukadan's [Selenium with Python docs](http://selenium-python.readthedocs.org/en/latest/index.html) provide a great overview of the available methods in Selenium for Python. If that fails you, consult the [official documentation](http://docs.seleniumhq.org/docs/03_webdriver.jsp).
+
 ### Imports
 
 <table>
@@ -12,7 +14,7 @@
     <tbody>
         <tr>
             <td><code>from selenium import webdriver</code></td>
-            <td>Imports access to the <a href="http://docs.seleniumhq.org/docs/03_webdriver.jsp#introducing-webdriver">Selenium Webdriver API</a>.</td>
+            <td>Imports access to the <a href="http://selenium-python.readthedocs.org/en/latest/api.html">Selenium Webdriver API</a>.</td>
         </tr>
     </tbody>
 </table>
