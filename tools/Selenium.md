@@ -67,8 +67,12 @@
             <td>Returns a single document element by its ID.</td>
         </tr>
         <tr>
-            <td><code>find_element_by_id()</code></td>
-            <td>Returns a list of document elements which match a given ID.</td>
+            <td><code>find_element_by_class_name()</code></td>
+            <td>Returns a single document element by its CSS class.</td>
+        </tr>
+        <tr>
+            <td><code>find_elements_by_class_name()</code></td>
+            <td>Returns a list of document elements which match a given CSS class.</td>
         </tr>
         <tr>
             <td><code>find_element_by_tag_name()</code></td>
@@ -78,5 +82,15 @@
             <td><code>find_elements_by_tag_name()</code></td>
             <td>Returns a list of document elements which match a given HTML tag name.</td>
         </tr>
+        <tr>
+            <td><code>find_element_by_css_selector()</code></td>
+            <td>Returns a single document element which matches a given CSS selector. Similar to how you target elements in CSS stylesheets.</td>
+        </tr>
+        <tr>
+            <td><code>find_elements_by_css_selector()</code></td>
+            <td>Returns a list of document elements which match a given CSS selector.</td>
+        </tr>
     </tbody>
 </table>
+
+Additional selectors are outlined in the [Selenium Docs on Locating Elements](http://selenium-python.readthedocs.org/en/latest/locating-elements.html).
